@@ -1,6 +1,6 @@
 { pkgs, lib, config, inputs, ... }:
 let 
-  
+  charm = import ./nix/charm { inherit lib; };
 in
 
 {
@@ -24,10 +24,6 @@ in
     port = "2002";
     reserved-name = "j628afbr91lt";
   in
-  {
-    tunnel.exec = "zrok share reserved ${reserved-name}";
-    qr.exec = "qrencode -t ANSIUTF8 'https://${reserved-name}.share.zrok.io'";
-    server.exec = "pnpm dev --port ${port} --host";
-  };
+  (charm.web.astroScriptsBuilder { inherit pkgs port;} reserved-name);
 
 }

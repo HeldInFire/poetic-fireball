@@ -7,7 +7,7 @@ import mdx from "@astrojs/mdx";
 export default defineConfig({
   server: {
       allowedHosts: [
-          "0rbt1of2xor9.share.zrok.io"
+          "j628afbr91lt.share.zrok.io"
       ]
   },
 
