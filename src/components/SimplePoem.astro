@@ -1,0 +1,55 @@
+---
+interface Props {
+    title: string;
+    date: string;
+}
+
+import { format, parseISO } from 'date-fns';
+import { hu } from 'date-fns/locale';
+
+
+const { title, iso_date } = Astro.props;
+
+const date = format(parseISO(iso_date), "d. MMMM yyyy", { locale: hu });
+---
+
+<article class="poem literata-default">
+<h1 title="literata-title">{title}</h1>
+
+<slot />
+
+<p class="literata-date">{date}</p>
+
+
+</article>
+
+<style>
+  .poem {
+    white-space: pre-wrap;
+  }
+
+
+.literata-default {
+  font-family: "Literata",
+                serif;
+  font-optical-sizing: auto;
+  font-weight: 400; /* 200 - 900 */
+  font-style: normal;
+}
+
+.literata-date {
+  font-family: "Literata",
+                serif;
+  font-optical-sizing: auto;
+  font-weight: 200; /* 200 - 900 */
+  font-style: normal;
+}
+
+.literata-title {
+  font-family: "Literata",
+                serif;
+  font-optical-sizing: auto;
+  font-weight: 600; /* 200 - 900 */
+  font-style: normal;
+}
+</style>

@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" href="data:image/svg+xml,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 100 100&quot;&gt;&lt;text y=&quot;50%&quot; x=&quot;50%&quot; dominant-baseline=&quot;central&quot; text-anchor=&quot;middle&quot; font-size=&quot;88&quot;&gt;✍️&lt;/text&gt;&lt;/svg&gt;">
+		<meta name="generator" content={Astro.generator} />
+		<title>Poetic Fireball</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">	</head>
+	<body>
+        <div class="content">
+		    <slot />
+        </div>
+	</body>
+</html>
+
+<style>
+	html,
+	body {
+		margin: 0;
+		width: 100%;
+		height: 100%;
+	}
+
+    .content {
+        /* max-width: 65ch; making the width responsive*/
+        max-width: min(65ch, 100%);
+        margin-inline: auto;
+        padding-inline: 1rem;
+
+    }
+
+</style>
