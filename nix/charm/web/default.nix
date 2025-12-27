@@ -8,6 +8,7 @@ rec {
     qr.exec = "qrencode -t ANSIUTF8 'https://${reserved-name}.share.zrok.io'";
     tunnel.exec = ''
       qr
+      echo 'https://${reserved-name}.share.zrok.io'
       zrok share reserved ${reserved-name} --headless
       '';
 
