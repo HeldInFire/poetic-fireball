@@ -3,12 +3,18 @@ interface Props {
 }
 ---
 
-<p class="poem literata-default">
+<p class="poem-body">
   <slot />
 </p>
 
 <style>
-  .poem {
+  .poem-body {
     white-space: pre-wrap;
+
+    font-size: 1rem;
+    line-height: 1.65;           /* comfortable reading rhythm */
+    letter-spacing: 0.02em;       /* subtle widening */
+    font-weight: 400;
+    color: var(--text-primary);
   }
 </style>

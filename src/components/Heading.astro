@@ -1,0 +1,27 @@
+---
+const { level = 1 } = Astro.props;
+const Tag = `h${level}`;
+---
+
+<Tag class="spaced-heading">
+  <slot />
+</Tag>
+
+<style>
+.spaced-heading {
+  margin-top: var(--space-l);        /* optional, breathing from top */
+  margin-bottom: var(--space-xl);    /* clear gap before next block */
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.spaced-heading[level="2"] {
+  font-size: 1.75rem;
+  margin-bottom: var(--space-l);
+}
+
+.spaced-heading[level="3"] {
+  font-size: 1.5rem;
+  margin-bottom: var(--space-m);
+}
+</style>

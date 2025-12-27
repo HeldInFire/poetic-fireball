@@ -12,9 +12,34 @@
 	</body>
 </html>
 
+<style is:global>
+:root {
+  --space-xs: 0.5rem;
+  --space-s: 1rem;
+  --space-m: 2rem;
+  --space-l: 3rem;
+  --space-xl: 5rem;
+
+  --content-width: 42rem;
+
+  --text-secondary: 'light-gray';
+}
+
+</style>
+
 <style>
-	html,
-	body {
+  :root {
+    --base-font-size: 1rem;
+    --base-line-height: 1.6;
+  }
+
+  body {
+    font-size: var(--base-font-size);
+    line-height: var(--base-line-height);
+  }
+
+  html,
+  body {
 		margin: 0;
 		width: 100%;
 		height: 100%;

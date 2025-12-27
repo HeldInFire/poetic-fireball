@@ -1,0 +1,42 @@
+---
+layout: '../layouts/Poem.astro'
+---
+
+import Lead from '../components/Lead.astro'
+import Bridge from '../components/Bridge.astro'
+import Closure from '../components/Closure.astro'
+import Heading from '../components/Heading.astro'
+import ContentParagraph from '../components/ContentParagraph.astro'
+import PoemCycle from '../components/PoemCycle.astro'
+
+<Heading>Az Elveszett Ötszázak</Heading> 
+
+
+<Lead>
+  <p>Két korszak határán állok.</p>
+  <p>Ami eddig született, most egésszé válik!</p>
+</Lead>
+
+<Bridge>
+	<p>Ahogy visszatekintek a verseimre, az intenzív lélekállapotaim lenyomatfoszlányait látom bennük.</p>
+</Bridge>
+
+<ContentParagraph>
+Annak érdekében, hogy a verseim nagyobb értéket képviselhessenek, utólagosan ciklusokba rendezem őket.
+</ContentParagraph>
+
+<ContentParagraph>
+A múltban írt verseimet a jelen énem szemüvegén keresztül fogom vizsgálni! 
+Kisebb-nagyobb utazásokra invitállak a múlt tükrén keresztül.
+</ContentParagraph>
+
+<Closure>
+Az elmúlt korszak alatt, gyakran meditatív, elmélyült állapotba kerültem, amely – úgy érzem – verseimben is visszaköszön.
+</Closure>
+
+
+<PoemCycle items={[
+  { href: '/poems/timelapse-of-living', title: 'Timelapse of Living' },
+  { href: '/poems/tepjetek-szet-istenek', title: 'Tépjetek szét Istenek!' },
+  { href: '/poems/peti-ne-kapaszkodj', title: 'Peti, ne kapaszkodj' },
+]} />

@@ -1,0 +1,28 @@
+<div class="lead literata-default">
+  <slot />
+</div>
+
+<style>
+  .lead {
+    margin-bottom: var(--space-l);
+  }
+
+  .lead p {
+    margin: 0;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .lead p + p {
+    margin-top: var(--space-xs);
+  }
+
+  .literata-default {
+    font-family: "Literata", serif;
+    font-size: 1.5rem;
+    font-optical-sizing: auto;
+    font-weight: 400; /* 200 - 900 */
+    font-style: normal;
+  }
+
+</style>
