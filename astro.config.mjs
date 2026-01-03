@@ -11,5 +11,8 @@ export default defineConfig({
       ]
   },
 
+  site: "https://heldinfire.github.io",
+  base: "/poetic-fireball",
+
   integrations: [mdx()]
 });
