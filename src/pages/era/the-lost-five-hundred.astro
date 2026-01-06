@@ -1,6 +1,6 @@
 ---
-import Layout from '../../layouts/Poem.astro'
-import PoemList from '../../components/PoemList.astro'
+import Layout from '@/layouts/Poem.astro'
+import PoemList from '@/components/era/PoemList.astro'
 
 import { getCollection } from 'astro:content';
 
@@ -10,8 +10,40 @@ const links = poems.map(poem => ({
   title: poem.data.title,
   id: poem.id
 }))
+
+import Lead from '@/components/era/Lead.astro'
+import Bridge from '@/components/era/Bridge.astro'
+import Closure from '@/components/era/Closure.astro'
+import Heading from '@/components/era/Heading.astro'
+import ContentParagraph from '@/components/era/ContentParagraph.astro'
 ---
 
+
 <Layout>
+
+  <Heading>Az Elveszett Ötszázak</Heading> 
+
+  <Lead>
+    <p>Két korszak határán állok.</p>
+    <p>Ami eddig született, most egésszé válik!</p>
+  </Lead>
+
+  <Bridge>
+    <p>Ahogy visszatekintek a verseimre, az intenzív lélekállapotaim lenyomatfoszlányait látom bennük.</p>
+  </Bridge>
+
+  <ContentParagraph>
+  Annak érdekében, hogy a verseim nagyobb értéket képviselhessenek, utólagosan ciklusokba rendezem őket.
+  </ContentParagraph>
+
+  <ContentParagraph>
+  A múltban írt verseimet a jelen énem szemüvegén keresztül fogom vizsgálni! 
+  Kisebb-nagyobb utazásokra invitállak a múlt tükrén keresztül.
+  </ContentParagraph>
+
+  <Closure>
+  Az elmúlt korszak alatt, gyakran meditatív, elmélyült állapotba kerültem, amely – úgy érzem – verseimben is visszaköszön.
+  </Closure>
+
     <PoemList poems={links} />
 </Layout>

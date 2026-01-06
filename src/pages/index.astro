@@ -1,0 +1,13 @@
+---
+import Layout from '@/layouts/Poem.astro'
+
+import { withBase } from "@/utils/base"
+---
+
+<Layout> 
+    <h1>Korszakok</h1>
+    
+    <a href={withBase("/era/the-lost-five-hundred")}>Az Elveszett Ötszázak</a>
+    <a href={withBase("/era/within-awareness")}>Tudatom Közelében</a>
+</Layout>
+
