@@ -1,0 +1,25 @@
+---
+
+import { getCollection, render } from 'astro:content';
+// 1. Generate a new path for every collection entry
+export async function getStaticPaths() {
+  const posts = await getCollection('the_lost_five_hundred');
+  return posts.map(poem => ({
+    params: { id: poem.id },
+    props: { poem: poem },
+  }));
+}
+// 2. For your template, you can get the entry directly from the prop
+const { poem } = Astro.props;
+const { Content } = await render(poem);
+
+import Layout from '@/layouts/Poem.astro'
+import Poem from '../../components/SimplePoem.astro';
+
+---
+
+<Layout>
+    <Poem title={poem.data.title} written_at={poem.data.written_at}>
+        <Content />
+    </Poem>
+</Layout>

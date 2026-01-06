@@ -1,7 +1,7 @@
 ---
 interface Props {
     title: string;
-    date: string;
+    written_at: Date;
 }
 
 import { format, parseISO } from 'date-fns';
@@ -10,9 +10,9 @@ import { hu } from 'date-fns/locale';
 import PoemBody from './PoemBody.astro';
 
 
-const { title, iso_date } = Astro.props;
+const { title, written_at } = Astro.props;
 
-const date = format(parseISO(iso_date), "yyyy MMMM d.", { locale: hu });
+const date = format(written_at, "yyyy MMMM d.", { locale: hu });
 ---
 
 <article class="poem literata-default">

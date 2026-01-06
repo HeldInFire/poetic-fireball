@@ -1,0 +1,46 @@
+---
+import { withBase } from '@/utils/base';
+
+type ListItem = {
+  title: string;
+  id: string;
+};
+
+interface Props {
+  poems: ListItem[];
+}
+
+const { poems } = Astro.props;
+---
+
+<ul class="poem-cycle">
+  {poems.map(poem => (
+    <li>
+      <a href={withBase("/poem/" + poem.id)}>{poem.title}</a>
+    </li>
+  ))}
+</ul>
+
+<style>
+.poem-cycle {
+  list-style: none;
+  padding: 0;
+  margin: var(--space-l) 0;
+}
+
+.poem-cycle li {
+  margin-bottom: var(--space-s);
+}
+
+.poem-cycle a {
+  text-decoration: none;
+  color: var(--text-primary);
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.poem-cycle a:hover {
+  color: var(--text-secondary);
+  text-decoration: underline;
+}
+</style>
