@@ -1,10 +1,8 @@
 ---
-layout: '../../layouts/Poem.astro'
+title: "Vár egy lány"
+written_at: 2020-11-16
 ---
 
-import Poem from '../../components/SimplePoem.astro';
-
-<Poem title="Vár egy lány" iso_date="2020-11-16">
 Vár, valahol egy lány,
 Kiért szívem jár,
 Vár valahol egy lány,
@@ -30,4 +28,3 @@ Kereslek én téged.
 Nézz csak fel az égre,
 Ebben a percben
 Is, sietek én érted!
-</Poem>

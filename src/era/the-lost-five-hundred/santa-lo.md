@@ -1,10 +1,8 @@
 ---
-layout: '../../layouts/Poem.astro'
+title: "Sánta ló"
+written_at: 2021-03-22
 ---
 
-import Poem from '../../components/SimplePoem.astro';
-
-<Poem title="Sánta ló" iso_date="2021-03-22">
 Szemem kikacsingat,
 Másnak lova ringat.
 Lovam le vet magáról,
@@ -28,4 +26,3 @@ Figyelek tetteidre,
 Veled mindig megelégszem,
 Hibáznál? Tanítalak!
 Mellettem legyél szabad!
-</Poem>

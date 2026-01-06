@@ -1,10 +1,8 @@
 ---
-layout: '../../layouts/Poem.astro'
+title: "Rendíthetetlen"
+written_at: 2021-02-28
 ---
 
-import Poem from '../../components/SimplePoem.astro';
-
-<Poem title="Rendíthetetlen" iso_date="2021-02-28">
 Pici szívem,
 Nagyokat ver,
 Nagyokat ver!
@@ -30,4 +28,3 @@ Viszont mindenképp jobban.
 
 2020 nov 11 íródott
 • 2021 feb 28 
-</Poem>

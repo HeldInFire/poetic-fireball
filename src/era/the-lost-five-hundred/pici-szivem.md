@@ -1,10 +1,8 @@
 ---
-layout: '../../layouts/Poem.astro'
+title: "Pici szívem"
+written_at: 2020-11-11
 ---
 
-import Poem from '../../components/SimplePoem.astro';
-
-<Poem title="Pici szívem" iso_date="2020-11-11">
 Pici szívem,
 Nagyokat ver!
 Kiöntöm neked,
@@ -38,4 +36,3 @@ Eredeti hangjegyek,
 Bizalmas dallam,
 Hallgasd kérlek,
 Mert szeretlek téged!
-</Poem>

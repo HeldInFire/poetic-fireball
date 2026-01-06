@@ -1,10 +1,8 @@
 ---
-layout: '../../layouts/Poem.astro'
+title: "Egy szál virág"
+written_at: 2020-10-24
 ---
 
-import Poem from '../../components/SimplePoem.astro';
-
-<Poem title="Egy szál virág" iso_date="2020-10-24">
 Néha kinyílik,
 Néha bezárul,
 Néha elhervad,
@@ -19,4 +17,3 @@ Bár nem látszik rajta,
 Ő biztosan szenved,
 Mások nélkül,
 Szegény csak reszket.
-</Poem>

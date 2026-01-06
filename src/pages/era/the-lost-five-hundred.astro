@@ -2,7 +2,7 @@
 import Layout from '../../layouts/Poem.astro'
 import PoemList from '../../components/PoemList.astro'
 
-import { getCollection, getEntry } from 'astro:content';
+import { getCollection } from 'astro:content';
 
 const poems = await getCollection("the_lost_five_hundred");
 
@@ -10,12 +10,8 @@ const links = poems.map(poem => ({
   title: poem.data.title,
   id: poem.id
 }))
-
 ---
-
 
 <Layout>
     <PoemList poems={links} />
 </Layout>
-
-

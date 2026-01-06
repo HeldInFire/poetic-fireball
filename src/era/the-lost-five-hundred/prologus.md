@@ -1,10 +1,8 @@
 ---
-layout: '../../layouts/Poem.astro'
+title: "Prológus"
+written_at: 2021-03-03
 ---
 
-import Poem from '../../components/SimplePoem.astro';
-
-<Poem title="Prológus" iso_date="2021-03-03">
 Vannak részek,
 Melyek versnek 
 nehezen bélyegezhetőek.
@@ -17,4 +15,3 @@ Mosolygok és épül tovább a vár.
 Spontán versek,
 Melyek csak szórakozásból készültek,
 Szintén helyet kaptak a költemény gyűjteményben.
-</Poem>

@@ -1,10 +1,8 @@
 ---
-layout: '../../layouts/Poem.astro'
+title: "Érdekes világ"
+written_at: 2021-03-12
 ---
 
-import Poem from '../../components/SimplePoem.astro';
-
-<Poem title="Érdekes világ" iso_date="2021-03-12">
 Milyen érdekes ez a világ,
 Tó medernél kis bika, virág.
 Zöldel a fű, virít a pázsit,
@@ -143,5 +141,3 @@ Bujjunk össze és hallgassuk
 A végtelen meséket,
 Amelyeket előnkbe vet a természet,
 De szép is ez az élet!
-
-</Poem>

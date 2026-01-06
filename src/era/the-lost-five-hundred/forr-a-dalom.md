@@ -1,10 +1,7 @@
 ---
-layout: '../../layouts/Poem.astro'
+title: "Forr a dalom"
+written_at: 2020-11-11
 ---
-
-import Poem from '../../components/SimplePoem.astro';
-
-<Poem title="Forr a dalom" iso_date="2020-11-11">
 Legyen, ahogy akarom!
 Na de hogy is akarom?
 
@@ -21,4 +18,3 @@ Forradalom, én ezt akarom!
 Régen féltem, 
 mára a félelem
 Önismeret.
-</Poem>

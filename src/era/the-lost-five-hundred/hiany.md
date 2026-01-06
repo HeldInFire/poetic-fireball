@@ -1,10 +1,8 @@
 ---
-layout: '../../layouts/Poem.astro'
+title: "Hiány"
+written_at: 2020-11-17
 ---
 
-import Poem from '../../components/SimplePoem.astro';
-
-<Poem title="Hiány" iso_date="2020-11-17">
 Mint kéz, 
 Amikor ölelnék,
 Mint szem,
@@ -28,4 +26,3 @@ Elismerés, tanács
 Vagy éppen csak meghallgatás,
 A szeretet, amellyel ő szeretett!
 Most miért hányzik ez a fejezet?
-</Poem>

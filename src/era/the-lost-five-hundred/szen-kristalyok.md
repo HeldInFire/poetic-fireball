@@ -1,10 +1,8 @@
 ---
-layout: '../../layouts/Poem.astro'
+title: "Szén kristályok"
+written_at: 2022-06-29
 ---
 
-import Poem from '../../components/SimplePoem.astro';
-
-<Poem title="Szén kristályok" iso_date="2022-06-29">
 Ki marad mellettem?
 Mi a fontos és mit ér a helyes?
 Pillangó fantáziám elillan, majd visszatér,
@@ -33,4 +31,3 @@ Eltűri, ha ördög szarvaim lelkére karcolnak?
 Ó, Istenem, milyen szép volna!
 
 [  Vajon kibírja, ha nagyobbat hibázok?  ]
-</Poem>

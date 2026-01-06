@@ -1,10 +1,8 @@
 ---
-layout: '../../layouts/Poem.astro'
+title: "Szia, kedves"
+written_at: 2019-10-14
 ---
 
-import Poem from '../../components/SimplePoem.astro';
-
-<Poem title="Szia, kedves" iso_date="2019-10-14">
 Szia, kedves,
 Egészen meglepsz!
 Gondolom szeretsz,
@@ -13,4 +11,3 @@ Te tudod, minden rendben,
 Színes a kedvem
 Éneklem életem,
 Gördülök az életnek.
-</Poem>

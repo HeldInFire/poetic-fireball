@@ -1,10 +1,8 @@
 ---
-layout: '../../layouts/Poem.astro'
+title: "Idegen voltam"
+written_at: 2020-11-06
 ---
 
-import Poem from '../../components/SimplePoem.astro';
-
-<Poem title="Idegen voltam" iso_date="2020-11-06">
 Idegen lényekként létezve,
 Repülünk keresztül az éteren.
 A pályánk találkozik,
@@ -28,4 +26,4 @@ Számomra csak kaland marad.
 
 Úgy szeretnék boldog lenni,
 Az életben mindig vi
-</Poem>
+

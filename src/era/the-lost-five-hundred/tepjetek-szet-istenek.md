@@ -1,10 +1,8 @@
 ---
-layout: '../../layouts/Poem.astro'
+title: "Tépjetek szét Istenek!"
+written_at: 2023-12-05
 ---
 
-import Poem from '../../components/SimplePoem.astro';
-
-<Poem title="Tépjetek szét Istenek!" iso_date="2023-12-05">
 Tépjetek szét Istenek!
 Tépjetek szét két- három darabra
 vagy négy ötre vagy millióra,
@@ -22,5 +20,4 @@ Mely mindenkit szétterít,
 Istenek hatalma, benne vannak milliókba!
 Csendesen kavarognak 
 vagy fojtogatva fortyognak,
- Ha éppen nem mérleg karjain szundítnak.
-</Poem>
+Ha éppen nem mérleg karjain szundítnak.

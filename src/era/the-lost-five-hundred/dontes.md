@@ -1,10 +1,8 @@
 ---
-layout: '../../layouts/Poem.astro'
+title: "Döntés"
+written_at: 2019-05-25
 ---
 
-import Poem from '../../components/SimplePoem.astro';
-
-<Poem title="Döntés" iso_date="2019-05-25">
 Könnyedén szárnyal, a szabad 9
 Tengeti a lepke szárnyakat  9
 Eleven még a pillangó,   8
@@ -29,4 +27,3 @@ Szélcsend lett és béke e helyen,
 Pihen e szép lepke a térségben,
 A pillangó lett nyughelyem,
 Ahol megfigyelem ezt!
-</Poem>

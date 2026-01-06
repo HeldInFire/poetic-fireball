@@ -1,10 +1,8 @@
 ---
-layout: '../../layouts/Poem.astro'
+title: "Merre?"
+written_at: 2021-04-14
 ---
 
-import Poem from '../../components/SimplePoem.astro';
-
-<Poem title="Lélekvándor" iso_date="2021-03-09">
 Te, ki lelken át sétálsz,
 Látod ott a sok példát,
 Bárcsak tanítanál!
@@ -25,4 +23,3 @@ Téged dicsőitnek?
 Vagy te csak sodródsz
 Önzetlen segítve,
 Útszéli gyengéknek?
-</Poem>

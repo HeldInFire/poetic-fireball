@@ -1,10 +1,8 @@
 ---
-layout: '../../layouts/Poem.astro'
+title: "Peti, ne kapaszkodj"
+written_at: 2023-12-10
 ---
 
-import Poem from '../../components/SimplePoem.astro';
-
-<Poem title="Peti, ne kapaszkodj" iso_date="2023-12-10">
 Peti szelek szárnyán sebesen száll,
 Egy sárgás-zöld szelíd sárkány
 Pikkelyes hátán.
@@ -24,4 +22,3 @@ Zuhanj le a pályán.
 Lábad szilárdságra áll,
 Sárkánybarátod majd visszaszáll,
 Stabilhatár.
-</Poem>

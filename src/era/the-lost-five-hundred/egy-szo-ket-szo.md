@@ -1,10 +1,8 @@
 ---
-layout: '../../layouts/Poem.astro'
+title: "Egy szó, két szó"
+written_at: 2019-10-14
 ---
 
-import Poem from '../../components/SimplePoem.astro';
-
-<Poem title="Egy szó, két szó" iso_date="2019-10-14">
 Egy szó, két szó, 4
 Anyó vagy apó!  5
 Két lépés,  3
@@ -44,4 +42,3 @@ Egy szó, végszó.
 Kong a harang!
 Néma marad,
 Kérdés?
-</Poem>
