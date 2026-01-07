@@ -1,0 +1,26 @@
+---
+import PoemList from '@/components/era/PoemList.astro'
+import ChakraTimeline from "@/components/chakra-timeline"
+
+import { getCollection } from 'astro:content';
+
+const poems = await getCollection("the_lost_five_hundred");
+
+const sortedPoems = poems
+                        .sort((a, b) => {
+                            // If `date` is a string, convert to Date
+                            return new Date(a.data.written_at).getTime() - new Date(b.data.written_at).getTime();
+                        })
+                        .map(poem => ({
+                                title: poem.data.title,
+                                id: poem.id,
+                                written_at: poem.data.written_at
+                        }));
+
+import Layout from "../layouts/Poem.astro"
+---
+
+<Layout>
+    <ChakraTimeline poems={sortedPoems}/>
+    <!-- <PoemList poems={sortedPoems} /> -->
+</Layout>

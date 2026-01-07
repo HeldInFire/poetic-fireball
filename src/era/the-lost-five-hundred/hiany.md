@@ -1,6 +1,7 @@
 ---
 title: "Hiány"
 written_at: 2020-11-17
+favourite: true
 ---
 
 Mint kéz, 

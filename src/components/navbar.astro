@@ -1,0 +1,46 @@
+---
+import { withBase } from '@/utils/base';
+---
+
+<nav>
+    <a href={withBase("/")} class="Főoldal">🏠 Home</a>
+    <a href={withBase("/timeline")}>Idővonal</a>
+</nav>
+
+<style>
+    .home-link {
+        margin-bottom: 2rem; /* separates from poem */
+        font-size: 0.9rem;
+        color: rgba(216, 1, 1, 0.6);
+    }
+    .home-link:hover {
+        color: rgba(0,0,0,0.9);
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      padding: 10px 20px;
+      background: rgba(233, 227, 215, 0.566);
+      margin-bottom: 20px;
+
+  
+      /* semi-transparent background with blur, adapts to themes */
+      /* background-color: rgba(255, 255, 255, 0.2); light mode fallback */
+      color: var(--nav-text-color);
+      backdrop-filter: blur(10px);
+      border-radius: 8px;
+    }
+
+    body.light nav {
+      --nav-text-color: #8B0000; /* dark red for light background */
+      background-color: rgba(255, 255, 255, 0.4);
+    }
+
+    /* Dark theme overrides */
+    body.dark nav {
+      --nav-text-color: #F5E9E0; /* lighter text for dark background */
+      background-color: rgba(0, 0, 0, 0.4);
+    }
+</style>

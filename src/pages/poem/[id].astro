@@ -3,8 +3,8 @@
 import { getCollection, render } from 'astro:content';
 // 1. Generate a new path for every collection entry
 export async function getStaticPaths() {
-  const posts = await getCollection('the_lost_five_hundred');
-  return posts.map(poem => ({
+  const era_descriptors = await getCollection('the_lost_five_hundred');
+  return era_descriptors.map(poem => ({
     params: { id: poem.id },
     props: { poem: poem },
   }));

@@ -10,6 +10,8 @@ import { z } from 'astro/zod';
 const poem_schema = z.object({
     title: z.string(),
     written_at: z.date(),
+    favourite: z.boolean().default(false),
+    to_be_corrected: z.boolean().default(false)
 })
 
 // 4. Define your collection(s)
