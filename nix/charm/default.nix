@@ -1,4 +1,0 @@
-{lib}:
-{
-  web = import ./web;
-}

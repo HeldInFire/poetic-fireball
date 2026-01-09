@@ -1,6 +1,6 @@
 { pkgs, lib, config, inputs, ... }:
 let 
-  charm = import ./nix/charm { inherit lib; };
+  charm = inputs.fireplace.lib;
 in
 
 {
