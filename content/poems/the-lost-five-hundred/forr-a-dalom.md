@@ -1,0 +1,20 @@
+---
+title: "Forr a dalom"
+written_at: 2020-11-11
+---
+Legyen, ahogy akarom!
+Na de hogy is akarom?
+
+Szabadság és igazság!
+Értékek, melyekért küzdöttek.
+Bátorság és kitartás!
+Büszkesegéi  a küzdőknek.
+
+Forr a dalom, változni akarok!
+Őszinte leszek magammal,
+Bízni és szeretni akarok!
+Forradalom, én ezt akarom!
+
+Régen féltem, 
+mára a félelem
+Önismeret.

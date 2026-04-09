@@ -1,0 +1,30 @@
+---
+title: "Vár egy lány"
+written_at: 2020-11-16
+---
+
+Vár, valahol egy lány,
+Kiért szívem jár,
+Vár valahol egy lány,
+Kinek szíve értem kalapál.
+
+ő lesz majd a fényem,
+Szállunk át az égen,
+A csillag fényes,
+Nyári éjszakán.
+
+Felnézek az égre,
+Érzem, ő is nézne
+Az én lélek félémbe /lelkecskémbe
+Az őszinte csillagokról.
+
+Vár valahol egy lány,
+Kinek szíve értem jár.
+Vár valahol egy lány,
+Kiért szívem kalapál.
+
+Mennék én de mere?
+Kereslek én téged.
+Nézz csak fel az égre,
+Ebben a percben
+Is, sietek én érted!

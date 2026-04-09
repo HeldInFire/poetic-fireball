@@ -1,0 +1,25 @@
+---
+title: "Timelapse of Living"
+written_at: 2025-01-12
+---
+
+Homokszem vagyok eme gépezetben,
+Melynek engedem, hogy köröttem lépegessen,
+Tekeregjen, részem kiveszem az egészből,
+Pont, mint a félből,
+Ahogy a mánus az órában szalad,
+Ugyanúgy száguldanak agyamban.
+Percről perc, óráról óra,
+Negyedév múlva, egy újabb kocsma,
+Újabb barát, ki ritkán lát,
+Újabb beszéd,
+Minden halad,
+Futnak,
+Rohannak,
+Emlékhúzó lovak..
+És egyszer megpihen,
+Talán egy nap,
+De addig hajthatatlan
+Folyik a patak
+És újra csendbe ragad.
+Andalog a balatonba. 

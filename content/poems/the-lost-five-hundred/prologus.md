@@ -1,0 +1,17 @@
+---
+title: "Prológus"
+written_at: 2021-03-03
+---
+
+Vannak részek,
+Melyek versnek 
+nehezen bélyegezhetőek.
+Mások tükrözik
+Lelkem kétségeit,
+Az utat, ahogy ingadozik
+De soha meg nem törik!
+Ha mégis, akkor helyre áll
+Mosolygok és épül tovább a vár.
+Spontán versek,
+Melyek csak szórakozásból készültek,
+Szintén helyet kaptak a költemény gyűjteményben.
