@@ -17,7 +17,7 @@ export default function ChakraTimeline({ poems }: Props) {
             {poems.map((poem, index) => (
                 <TimelineItem key={poem._meta.path} minH="50px">
                     <TimelineContent flex="1" textAlign="right">
-                        <TimelineDescription whiteSpace="nowrap">
+                        <TimelineDescription whiteSpace="nowrap" pt={1}>
                             {format(poem.written_at, "yyyy MMM d", { locale: hu })}
                         </TimelineDescription>
                     </TimelineContent>
