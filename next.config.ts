@@ -6,7 +6,9 @@ const nextConfig: NextConfig = {
   reactCompiler: true,
   experimental: {
     optimizePackageImports: ["@chakra-ui/react"],
-  }
+  },
+  output: 'export',
+  basePath: process.env.PAGES_BASE_PATH,
 };
 
 export default withContentCollections(nextConfig);
