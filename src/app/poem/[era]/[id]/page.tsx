@@ -63,3 +63,13 @@ export default async function PoemPage({ params }: Props) {
         </VStack>
     )
 }
+
+
+export async function generateStaticParams() {
+  const poems = allPoems; // your data source
+
+  return poems.map((poem) => ({
+    era: poem._meta.path.split('/')[0],
+    id: poem._meta.path.split('/')[1],
+  }));
+}
