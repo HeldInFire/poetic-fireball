@@ -1,17 +1,13 @@
 ---
-title: "Halaszt"
+title: "Kűrt"
 written_at: 2026-01-11
 ---
 
-Benne marad, 
-Belefojt. 
-Égi zene,
-Szürke folt!
+Zeneszó, 
+mi betölti ezt az űrt!
 
-Halad a paraszt,
-Napról napra,
-Őt nyugalom hajtja.
-Rendszer rabja?
+Űr? Inkább zűr:
+Hisz csak gyűlt és gyűlt.
 
-Húzom itt a témát,
-Vedd át a stafétát!
+Elengedhetetlen,
+Lételemem, meglep!
