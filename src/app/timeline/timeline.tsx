@@ -4,22 +4,18 @@ import { Box, Stack, Text, Timeline, Link as ChakraLink, } from "@chakra-ui/reac
 import { format } from "date-fns";
 import { hu } from 'date-fns/locale';
 import NextLink from "next/link";
+import { Poem } from "content-collections";
 
-type PoemEntry = {
-    title: string;
-    written_at: Date;
-    id: string;
-};
 
 type Props = {
-    poems: PoemEntry[];
+    poems: Poem[];
 };
 
 export default function ChakraTimeline({ poems }: Props) {
     return (
         <TimelineRoot size="lg" variant="outline">
             {poems.map((poem, index) => (
-                <TimelineItem key={poem.id} minH="50px">
+                <TimelineItem key={poem._meta.path} minH="50px">
                     <TimelineContent flex="1" textAlign="right">
                         <TimelineDescription whiteSpace="nowrap">
                             {format(poem.written_at, "yyyy MMM d", { locale: hu })}
@@ -31,7 +27,7 @@ export default function ChakraTimeline({ poems }: Props) {
                     <TimelineContent flex="1">
                         <TimelineTitle lineHeight="1.3">
                             <ChakraLink asChild>
-                                <NextLink href={"/poem/" + poem.id}>
+                                <NextLink href={"/poem/" + poem._meta.path}>
                                     {poem.title}
                                 </NextLink>
                             </ChakraLink>
