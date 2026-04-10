@@ -34,7 +34,7 @@ export default async function PoemPage({ params }: Props) {
                 lineHeight="1.25" 
                 letterSpacing="0.01em" 
                 mb={10} mt={8}
-                // size="2xl"
+                fontSize="clamp(1.75rem, 3vw, 2.4rem)"
             >
                 {poem.title}
             </Heading>
