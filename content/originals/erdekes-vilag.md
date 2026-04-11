@@ -1,9 +1,6 @@
 ---
 title: "Érdekes világ"
 written_at: 2021-03-12
-edits: {
-    "2026-04-11": "helyesírás"
-}
 ---
 
 Milyen érdekes ez a világ,
@@ -37,7 +34,7 @@ aki bohókásan ránevet:
 "Idehallgass drága Tappancs, 
 én neked már sokszor mondtam
 Ha párom társaságát kívánod,
-olyan nappal próbálkozhatsz, 
+olyan nappal probálkozhatsz, 
 amikor nem fogja el az álom.
 Fogadd meg a tanácsom,
 hasznodra válik, azt garantálom!"
@@ -58,7 +55,7 @@ Na és túl egy rövid sziesztán,
 Baktat tovább a csordánk,
 Zöld mezőkön, tágas tereken át!
 
-Pörög az élet, egyedül Erény, 
+Pörög az élet, Egyedül Erény, 
 aki szemlélget
 szomorkásan, egyedül
 a maga csendjében.
