@@ -122,7 +122,7 @@ Könnyek patakát megcsordítván.
 Mindhárom egerünk
 Szorgalma más,
 De a legtöbbre jellemző
-a megszálottság.
+a megszállottság.
 Rápörögnek és megteszik,
 Ilyenkor bejön az élet nekik.
 
