@@ -22,7 +22,7 @@ export default function ChakraTimeline({ poems }: Props) {
                         </TimelineDescription>
                     </TimelineContent>
                     <TimelineConnector>
-                        {index}
+                        { poems.length - index}
                     </TimelineConnector>
                     <TimelineContent flex="1">
                         <TimelineTitle lineHeight="1.3">
