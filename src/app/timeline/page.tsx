@@ -1,16 +1,30 @@
+"use client"
+
 import { allPoems } from "content-collections";
 import ChakraTimeline from "./timeline";
-import { Heading, VStack } from "@chakra-ui/react";
+import { Heading, Input, VStack } from "@chakra-ui/react";
 import { sortedPoems } from "./sorted";
+import { useState } from "react";
 
 
 
 export default function WithinAwarenessPage() {
+    const [searchPrefix, setSearchPrefix] = useState("")
 
     return (
         <VStack>
-            <Heading size="xl" my={10}>Időrend</Heading>
-            <ChakraTimeline poems={sortedPoems}/>
+            <Heading size="xl" mt={10}>Időrend</Heading>
+
+            <Input placeholder="" variant="subtle" opacity={0.5} w={{ md: "28%", lg: "30%" }} my={4}
+                onChange={(e) => {
+                    setSearchPrefix(e.currentTarget.value)
+                }}
+            />
+
+            <ChakraTimeline poems={
+                sortedPoems.filter((poem) =>
+                    poem.title.toLowerCase().includes(searchPrefix)
+                )} />
         </VStack>
     )
 }
