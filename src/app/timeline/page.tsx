@@ -21,7 +21,7 @@ export default function WithinAwarenessPage() {
                 }}
             />
 
-            <ChakraTimeline poems={
+            <ChakraTimeline mr={2} poems={
                 sortedPoems.filter((poem) =>
                     poem.title.toLowerCase().includes(searchPrefix)
                 )} />

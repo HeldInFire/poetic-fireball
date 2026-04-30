@@ -9,11 +9,12 @@ import { Poem } from "content-collections";
 
 type Props = {
     poems: Poem[];
+    mr?: string | number;
 };
 
-export default function ChakraTimeline({ poems }: Props) {
+export default function ChakraTimeline({ poems, mr }: Props) {
     return (
-        <TimelineRoot size="lg" variant="outline">
+        <TimelineRoot size="lg" variant="outline" mr={mr}>
             {poems.map((poem, index) => (
                 <TimelineItem key={poem._meta.path} minH="50px">
                     <TimelineContent flex="1" textAlign="right">
