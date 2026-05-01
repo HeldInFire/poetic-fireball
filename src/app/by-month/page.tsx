@@ -1,3 +1,6 @@
+"use client"
+
+
 import { Box, Card, Center, HStack, Stack, Text, useBreakpointValue } from "@chakra-ui/react";
 import { poemsByMonth } from "./poems-from-month";
 import { Poem } from "content-collections";
@@ -7,12 +10,27 @@ import { TiSpiral } from "react-icons/ti";
 import { FaHourglassHalf } from "react-icons/fa";
 import { PiHourglassSimpleThin, PiSpiralThin } from "react-icons/pi";
 import { IoIosFlame } from "react-icons/io";
+import { useState } from "react";
 
 export default function ByMonth() {
-    const poems = poemsByMonth
-        .filter(
-            ([_, poems]) => poems.length !== 0
-        )
+    const [inspirationalLens, setInspirationalLens] = useState(true)
+
+    // if (inspirationalLens) {
+    //     const poems_shining_through = poems.sort(
+    //         (a) => a[1].length
+    //     )
+    // } else {
+    //     const poems_shining_through = poems
+    // }
+
+
+    const poems = poemsByMonth.filter(
+        ([_, poems]) => poems.length !== 0
+    )
+
+    const poems_shining_through = inspirationalLens
+        ? [...poems].sort((a, b) => b[1].length - a[1].length) // descending
+        : [...poems].reverse();
 
     return (<>
         <Center>
@@ -22,6 +40,8 @@ export default function ByMonth() {
                     size="lg"
                     my={6}
                     // variant={}
+                    onCheckedChange={(e) => setInspirationalLens(e.checked)}
+                    checked={inspirationalLens}
                     thumbLabel={{ "on": <IoIosFlame />, "off": <FaHourglassHalf color="black" /> }}
                     trackLabel={{ "off": <PiSpiralThin />, "on": <PiHourglassSimpleThin color="white" /> }}
                 />
@@ -30,7 +50,7 @@ export default function ByMonth() {
         </Center>
 
         <HStack wrap="wrap" mx={8} justify="center">
-            {poems
+            {poems_shining_through
                 .map(
                     ([month, poems]: [Date, Poem[]]) => <MonthCard key={month.toDateString()} monthDate={month} numberOfPoems={poems.length} />
                 )}
