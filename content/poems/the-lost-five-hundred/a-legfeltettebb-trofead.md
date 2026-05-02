@@ -1,5 +1,5 @@
 ---
-title: "A legfféltetteb trófeád"
+title: "A legféltetteb trófeád"
 written_at: 2023-11-20
 ---
 

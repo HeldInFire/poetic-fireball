@@ -1,6 +1,7 @@
 ---
 title: "(Meg)Érinthetetlen"
 written_at: 2024-10-18
+explicit_words: true
 ---
 
 Régen még meséltem?

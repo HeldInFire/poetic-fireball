@@ -1,6 +1,7 @@
 ---
 title: "A kezemre"
 written_at: 2024-02-06
+explicit_words: true
 ---
 
 Kalapács a súlya nélkül,

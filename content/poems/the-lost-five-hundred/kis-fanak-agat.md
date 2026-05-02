@@ -1,14 +1,17 @@
 ---
-title: "A kezemre"
-written_at: 2024-02-06
+title: "Kis fának ágát "
+written_at: 2022-08-17
+explicit_words: true
 ---
 
-Kalapács a súlya nélkül,
-Anno Reszkető megdermedő,
-Pilóta a semmibe,
-Kit sodor a szél,
-De ki tudja merre?
-Hagyja, hogy elvigyék
-S olykor nem érez késztetést,
-Hogy változzék ez a kurva istok fasza
-Hadd lógjon le a szeg, rábasztam a kezemre!
+Ne tépd ki a kis fának az ágát,
+Nem érzi még, de ha kitépnéd,
+Évek múlva rajta múlna,
+Önmagát meggyógyítsa,
+Felnőtt sebeit begyógyítsa.
+
+Azt a kis ártatlan ágat, ám sokáig siratja,
+Ne bántsd, simogasd az ágak hiányát,
+Kenj rá egy egész szivárványt!
+Hintsd be tápláló anyagölddel,
+Míg gyökerei létreménye újra kikel.
