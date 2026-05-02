@@ -11,17 +11,12 @@ import { FaHourglassHalf } from "react-icons/fa";
 import { PiHourglassSimpleThin, PiSpiralThin } from "react-icons/pi";
 import { IoIosFlame } from "react-icons/io";
 import { useState } from "react";
+import useLocalStorageState from "use-local-storage-state";
 
 export default function ByMonth() {
-    const [inspirationalLens, setInspirationalLens] = useState(true)
-
-    // if (inspirationalLens) {
-    //     const poems_shining_through = poems.sort(
-    //         (a) => a[1].length
-    //     )
-    // } else {
-    //     const poems_shining_through = poems
-    // }
+    const [inspirationalLens, setInspirationalLens] = useLocalStorageState('month-page/inspirational-lens', {
+        defaultValue: true
+    })
 
 
     const poems = poemsByMonth.filter(
