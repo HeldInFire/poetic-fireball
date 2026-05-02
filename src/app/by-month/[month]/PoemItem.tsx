@@ -1,8 +1,6 @@
 import { Poem } from "content-collections"
-import { format } from "date-fns";
-import { hu } from "date-fns/locale";
 import NextLink from "next/link"
-import { Text } from "@chakra-ui/react"
+import { Span, Text } from "@chakra-ui/react"
 
 
 type Props = {
@@ -17,8 +15,7 @@ export default function PoemItem({ poem }: Props) {
 
     return (
         <NextLink href={"/poem/" + poem._meta.path}>
-            {poem.title}
-            - {poem.written_at.getDay()}.
+            <Text textAlign="left" letterSpacing={1.2}>{poem.title} <Span opacity={0.2}> - {poem.written_at.getDay() + 1}.</Span></Text>
         </NextLink>
     )
 }
