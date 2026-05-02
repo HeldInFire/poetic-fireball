@@ -1,0 +1,92 @@
+body {
+    /* background-image: url("../subtle_pattern/shattered/shattered/shattered_@2X.png"); */
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    }
+    
+/* h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9 em;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    padding: 2px;
+    margin: 0;
+} */
+
+/* ========MOT PURE============ */
+/* a{
+    color: rgb(43, 43, 43);
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    }
+    
+:hover, a:active {
+    text-decoration: none;
+} */
+ /* ========================= */
+
+.vers-link:hover, .vers-link:active{
+    /* background: rgba(247, 240, 240, 0.788);; */
+    border: rgb(246, 248, 237);
+    border-style: solid;
+    border-width: 2px;
+}
+
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 4px;
+    background: black;
+    /* height: 130px; */
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(253, 253, 253);
+    }
+    
+
+.vers-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    flex: 1 1 auto;
+    flex-wrap: wrap;
+    margin: 0 70px;
+}
+
+.vers-link{
+    background-color: rgb(255, 255, 255);
+    border-radius: 24%/50%;
+    margin: 17px;
+    min-width: min-content;
+    padding: 20px;
+}
+
+.vers-cim, .vers-datum{
+    padding: 0;
+    margin: 0;
+}
+
+.vers-datum{
+    margin-top: 3px;
+    font-size: 0.7em;
+}
+
+/* p, h{
+    width: fit-content;
+} */
+
+.logo{
+    position: fixed;
+    bottom: 0;
+    left:92%;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5em;
+}
