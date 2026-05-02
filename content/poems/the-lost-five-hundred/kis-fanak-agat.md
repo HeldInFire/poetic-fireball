@@ -1,7 +1,6 @@
 ---
 title: "Kis fának ágát "
 written_at: 2022-08-17
-explicit_words: true
 ---
 
 Ne tépd ki a kis fának az ágát,

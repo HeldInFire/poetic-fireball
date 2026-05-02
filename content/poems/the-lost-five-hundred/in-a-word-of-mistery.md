@@ -1,16 +1,17 @@
 ---
-title: "Kis fának ágát "
+title: "In a word of mystery"
 written_at: 2022-08-17
 ---
 
-Ne tépd ki a kis fának az ágát,
-Nem érzi még, de ha kitépnéd,
-Évek múlva rajta múlna,
-Önmagát meggyógyítsa,
-Felnőtt sebeit begyógyítsa.
+In a word of mystery
+You should twist the machinery 
+And play along the reality.
 
-Azt a kis ártatlan ágat, ám sokáig siratja,
-Ne bántsd, simogasd az ágak hiányát,
-Kenj rá egy egész szivárványt!
-Hintsd be tápláló anyagölddel,
-Míg gyökerei létreménye újra kikel.
+Jump between rarities,
+Slip into the cognitive,
+Fly through magistics.
+
+Demistified realities,
+Created entities,
+Welcome to the mystery!
+
