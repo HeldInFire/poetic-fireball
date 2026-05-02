@@ -13,7 +13,8 @@ const poems = defineCollection({
   schema: z.object({
     title: z.string(),
     written_at: z.coerce.date(),
-    think_tags: z.array(z.string()).optional()
+    think_tags: z.array(z.string()).optional(),
+    explicit_words: z.boolean().default(false)
   }),
   transform: async (document, context) => {
     const html = await compileMarkdown(context, document);

@@ -5,6 +5,7 @@ import { format } from "date-fns";
 import { hu } from 'date-fns/locale';
 import NextLink from "next/link";
 import { Poem } from "content-collections";
+import { TbExplicitFilled } from "react-icons/tb";
 
 
 type Props = {
@@ -32,6 +33,9 @@ export default function ChakraTimeline({ poems, mr }: Props) {
                                     {poem.title}
                                 </NextLink>
                             </ChakraLink>
+                            {poem.explicit_words &&
+                                <TbExplicitFilled />
+                            }
                         </TimelineTitle>
                     </TimelineContent>
                 </TimelineItem>
