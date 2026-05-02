@@ -1,7 +1,8 @@
 "use client"
 
 import { Card, useBreakpointValue } from "@chakra-ui/react";
-import { dateToRepr } from "./poems-from-month";
+import { dateToRepr, serializeToLink } from "./poems-from-month";
+import Link from "next/link";
 
 
 type Props = {
@@ -17,6 +18,7 @@ export default function MonthCard({ monthDate, numberOfPoems }: Props) {
         }) ?? "long";
 
     return (
+        <Link href={`/by-month/${serializeToLink(monthDate)}`}>
         <Card.Root h="8em">
             <Card.Body gap="2">
                 <Card.Title mt="2">{dateToRepr(monthDate, form)}</Card.Title>
@@ -25,5 +27,6 @@ export default function MonthCard({ monthDate, numberOfPoems }: Props) {
                 </Card.Description>
             </Card.Body>
         </Card.Root>
+        </Link>
     );
 }

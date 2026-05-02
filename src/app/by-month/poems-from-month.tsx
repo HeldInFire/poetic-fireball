@@ -35,6 +35,19 @@ export function dateToRepr(date: Date, form: "short"|"long" = "long") {
     return `${year} ${monthName}`
 }
 
+export function serializeToLink(date: Date){
+    const year = date.getFullYear();
+    const month = date.getMonth();
+
+    return `${year}-${month+1}`
+}
+
+export function deserializeFromLink(repr: string) {
+    const [year, month] = repr.split("-").map(Number)
+    return new Date(year, month-1)
+}
+
+
 export function poemsFromMonth(monthDate: Date): Poem[] {
     return allPoems
         .filter((poem) => {
