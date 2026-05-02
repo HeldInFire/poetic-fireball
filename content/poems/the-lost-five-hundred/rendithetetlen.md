@@ -1,6 +1,6 @@
 ---
 title: "Rendíthetetlen"
-written_at: 2021-02-28
+written_at: 2020-11-11
 ---
 
 Pici szívem,
@@ -26,5 +26,7 @@ Sűvít a szellő, vígan boldogan,
 Tán nem is olyan boldogan,
 Viszont mindenképp jobban.
 
-2020 nov 11 íródott
-• 2021 feb 28 
+<>
+szakad, eredetilek: hull
+megváltozott: 2021 feb. 28
+<>

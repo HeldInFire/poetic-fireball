@@ -1,14 +1,15 @@
 // import styles from "./page.module.css";
-import { Heading, Link as ChakraLink, VStack } from "@chakra-ui/react";
+import { Heading, Link as ChakraLink, VStack, Text } from "@chakra-ui/react";
 import NextLink from "next/link";
 
 
 export default function Home() {
   return (
     <VStack gap={3} mt={10}>
-        {/* <h1>Poetic Fireball</h1> */}
-        <Heading size="2xl" mb={10}>Korszakok</Heading>
+        <Text>Verseim mélyen összefonódtak belső világommal.</Text>
 
+        {/* <h1>Poetic Fireball</h1> */}
+        <Heading size="2xl" mt={6} mb={10}>Korszakok</Heading>
 
 
         <ChakraLink asChild letterSpacing={2}>

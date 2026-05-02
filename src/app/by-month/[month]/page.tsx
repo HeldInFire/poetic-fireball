@@ -16,6 +16,8 @@ export default async function ByMonthPoemList({ params }: Props) {
 
     poems.sort((a, b) => a.written_at.getDay() - b.written_at.getDay())
 
+    // TODO: group by days
+    // const groupedPoems = Object.groupBy(poems, (poem) => poem.written_at.getDay() )
 
     return (
         <Center>

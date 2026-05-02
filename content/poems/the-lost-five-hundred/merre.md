@@ -1,6 +1,6 @@
 ---
 title: "Merre?"
-written_at: 2021-04-14
+written_at: 2020-11-14
 ---
 
 Útvesztőhőz értem,
@@ -21,3 +21,7 @@ Teljes a sötét, vajon miért?
 Arra nem mehetek. Mégis,
 Mégis oly nyugtató, 
 hiszen a szömörce szúr!
+
+<>
+Másoláskor átírtam (yold): 2021-04-14
+<>

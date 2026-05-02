@@ -29,3 +29,11 @@ Mi lehet a gondom?
 Itt az ideje tudnom!
 
 Aki mer, az nyer!
+
+<>
+Nagy a mosoly,
+Szórakozom,
+Kínomat enyhíteni kéne,
+Tegyünk végre érte!
+Elhiszem, hogy én is jó vagyok!
+<>
