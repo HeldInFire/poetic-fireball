@@ -1,6 +1,10 @@
 ---
 title: "Világmérge"
 written_at: 2021-03-28
+think_tags:
+    - harag
+    - felismerés
+    - "önreflexió kezdete"
 ---
 
 Mérges vagyok a falra,

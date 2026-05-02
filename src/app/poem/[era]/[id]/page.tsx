@@ -1,4 +1,4 @@
-import { Heading, VStack, Text } from "@chakra-ui/react";
+import { Heading, VStack, Text, HStack, Tag } from "@chakra-ui/react";
 import { allPoems } from "content-collections";
 import { notFound } from "next/navigation";
 import { Literata } from "next/font/google";
@@ -8,7 +8,8 @@ import { hu } from "date-fns/locale";
 
 
 type Props = {
-    params: Promise<{ era: string, id: string }>
+    params: Promise<{ era: string, id: string }>;
+    // searchParams: Promise<{ [key: string]: string | string[] | undefined }>
 }
 
 const literata = Literata({
@@ -19,25 +20,38 @@ const literata = Literata({
 
 export default async function PoemPage({ params }: Props) {
     const { era, id } = await params;
+    // const { think } = await searchParams;
     const poem = allPoems.find(p => p._meta.path === `${era}/${id}`);
 
     if (!poem) {
-        notFound(); 
+        notFound();
     }
 
     const formattedDate = format(poem.written_at, "yyyy MMMM d", { locale: hu });
 
     return (
         <VStack>
-            <Heading 
-                fontWeight="600" 
-                lineHeight="1.25" 
-                letterSpacing="0.01em" 
-                mb={10} mt={8}
+            <Heading
+                fontWeight="600"
+                lineHeight="1.25"
+                letterSpacing="0.01em"
+                mb={4} mt={8}
                 fontSize="clamp(1.75rem, 3vw, 2.4rem)"
             >
                 {poem.title}
             </Heading>
+
+            <HStack mb={10}>
+                {/* { think == "tags"} && */}
+                {poem.think_tags?.map(
+                    (tag) => (
+                        <Tag.Root variant="outline">
+                            <Tag.Label>{tag}</Tag.Label>
+                        </Tag.Root>
+                    )
+                )}
+            </HStack>
+
             {/* <PoemContent poem={poem} /> */}
             <Text
                 whiteSpace="pre-wrap"
@@ -47,17 +61,19 @@ export default async function PoemPage({ params }: Props) {
                 className={literata.className}
                 mb={10}
                 mx={2}
-                >
+            >
                 {poem.content}
             </Text>
 
-            <Text mb="1.5rem" 
+            <Text mb="1.5rem"
                 textAlign="left"
                 color="#777"
                 fontSize="0.875rem"
             >
                 {formattedDate}
+                {/* TODO: add link to month view, if clicking on month */}
             </Text>
+
 
 
         </VStack>
@@ -66,10 +82,10 @@ export default async function PoemPage({ params }: Props) {
 
 
 export async function generateStaticParams() {
-  const poems = allPoems; // your data source
+    const poems = allPoems; // your data source
 
-  return poems.map((poem) => ({
-    era: poem._meta.path.split('/')[0],
-    id: poem._meta.path.split('/')[1],
-  }));
+    return poems.map((poem) => ({
+        era: poem._meta.path.split('/')[0],
+        id: poem._meta.path.split('/')[1],
+    }));
 }
