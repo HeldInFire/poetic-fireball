@@ -2,6 +2,8 @@
 title: "A kezemre"
 written_at: 2024-02-06
 explicit_words: true
+think_tags:
+    - "gyenge-vers"
 ---
 
 Kalapács a súlya nélkül,
