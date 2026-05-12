@@ -12,6 +12,7 @@ const poems = defineCollection({
   include: "**/*.md",
   schema: z.object({
     title: z.string(),
+    side_note: z.string().optional(),
     written_at: z.coerce.date(),
     think_tags: z.array(z.string()).optional(),
     explicit_words: z.boolean().default(false)

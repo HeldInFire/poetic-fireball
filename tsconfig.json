@@ -26,6 +26,12 @@
       "@/*": [
         "./src/*"
       ],
+      "@models/*": [
+        "./src/model/*"
+      ],      
+      "@components/*": [
+        "./src/components/*"
+      ],
       "content-collections": [
         "./.content-collections/generated"
       ]

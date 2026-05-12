@@ -1,9 +1,9 @@
 "use client"
 
 import { allPoems } from "content-collections";
-import ChakraTimeline from "./timeline";
+import ChakraTimeline from "@components/pattern/timeline";
 import { Heading, Input, VStack } from "@chakra-ui/react";
-import { sortedPoems } from "./sorted";
+import { sortedPoems } from "@models/poems";
 import { useState } from "react";
 
 
@@ -21,10 +21,10 @@ export default function WithinAwarenessPage() {
                 }}
             />
 
-            <ChakraTimeline mr={2} poems={
+`            <ChakraTimeline mr={2} poems={
                 sortedPoems.filter((poem) =>
                     poem.title.toLowerCase().includes(searchPrefix.toLowerCase())
-                )} />
+                )} />`
         </VStack>
     )
 }

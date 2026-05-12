@@ -4,6 +4,8 @@ import { notFound } from "next/navigation";
 import { Literata } from "next/font/google";
 import { format } from "date-fns/format";
 import { hu } from "date-fns/locale";
+import NextLink from "next/link"
+import { gen_tag_url } from "@/model/tags";
 
 
 
@@ -46,7 +48,7 @@ export default async function PoemPage({ params }: Props) {
                 {poem.think_tags?.map(
                     (tag) => (
                         <Tag.Root variant="outline">
-                            <Tag.Label>{tag}</Tag.Label>
+                            <Tag.Label><NextLink href={gen_tag_url(tag)}>{tag}</NextLink></Tag.Label>
                         </Tag.Root>
                     )
                 )}

@@ -1,0 +1,1 @@
+export { sortedPoems } from './sorted'
