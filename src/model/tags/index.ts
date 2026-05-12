@@ -1,4 +1,4 @@
-import { allPoems } from "content-collections";
+import { allPoems, Poem } from "content-collections";
 import { sortedPoems } from "../poems";
 
 export const think_tags = [...new Set(
@@ -18,6 +18,20 @@ export const think_tags_by_occurences =
         Object.entries(think_tags_by_occurences_unsorted)
             .sort(([, a], [, b]) => b - a)
     )
+
+export function get_tag_occurences_of(poems: Poem[]): Record<string, number>  {
+    const think_tags_by_occurences_unsorted = poems
+    .flatMap(poem => (poem.think_tags ?? []))
+    .reduce<Record<string, number>>((acc, item) => {
+        acc[item] = (acc[item] || 0) + 1;
+        return acc;
+    }, {});
+
+    return Object.fromEntries(
+        Object.entries(think_tags_by_occurences_unsorted)
+            .sort(([, a], [, b]) => b - a)
+    )
+}
 
 // -----------------------------------------------------------
 

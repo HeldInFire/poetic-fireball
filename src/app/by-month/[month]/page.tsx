@@ -1,6 +1,5 @@
 import { Center, Heading, Text, VStack } from "@chakra-ui/react"
 import { dateToRepr, deserializeFromLink, generateMonthDates, poemsFromMonth, serializeToLink } from "../poems-from-month";
-import Link from "next/link";
 import PoemItem from "./PoemItem";
 
 

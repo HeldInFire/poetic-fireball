@@ -6,6 +6,7 @@ import { format } from "date-fns/format";
 import { hu } from "date-fns/locale";
 import NextLink from "next/link"
 import { gen_tag_url } from "@/model/tags";
+import PoemTag from "@/components/pattern/poem-tag";
 
 
 
@@ -47,9 +48,7 @@ export default async function PoemPage({ params }: Props) {
                 {/* { think == "tags"} && */}
                 {poem.think_tags?.map(
                     (tag) => (
-                        <Tag.Root variant="outline">
-                            <Tag.Label><NextLink href={gen_tag_url(tag)}>{tag}</NextLink></Tag.Label>
-                        </Tag.Root>
+                        <PoemTag tag={tag} key={tag}/>
                     )
                 )}
             </HStack>

@@ -44,10 +44,10 @@ export default function ByMonth() {
             </HStack>
         </Center>
 
-        <HStack wrap="wrap" mx={8} justify="center">
+        <HStack wrap="wrap" align="stretch" mx={8} justify="center" mb={10}>
             {poems_shining_through
                 .map(
-                    ([month, poems]: [Date, Poem[]]) => <MonthCard key={month.toDateString()} monthDate={month} numberOfPoems={poems.length} />
+                    ([month, poems]: [Date, Poem[]]) => <MonthCard key={month.toDateString()} monthDate={month} poems={poems} />
                 )}
         </HStack>
     </>);
