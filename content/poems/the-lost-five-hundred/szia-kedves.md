@@ -1,6 +1,8 @@
 ---
 title: "Szia, kedves"
 written_at: 2019-10-14
+# think_tags:
+    # - 
 ---
 
 Szia, kedves,

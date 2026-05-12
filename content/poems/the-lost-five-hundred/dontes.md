@@ -1,29 +1,31 @@
 ---
 title: "Döntés"
 written_at: 2019-05-25
+think_tags:
+    - "idő múlása"
 ---
 
-Könnyedén szárnyal, a szabad 9
-Tengeti a lepke szárnyakat  9
-Eleven még a pillangó,   8
-Meglepi őt a mangó!  7
+Könnyedén szárnyal, a szabad
+Tengeti a lepke szárnyakat
+Eleven még a pillangó,
+Meglepi őt a mangó!
 
-Ólom szárnyú lepke ez,  7
-Mely átvezet egy életen, 8
-Eddig gond nélkül repkedett,  8
-De most érkezett a fergeteg.  9
+Ólom szárnyú lepke ez,
+Mely átvezet egy életen,
+Eddig gond nélkül repkedett,
+De most érkezett a fergeteg.
 
-Gondterhelt a környezet,  7
-A cselekvő fegyvertelen,  8
-Mit jelent A fent és a lent, 8
-Kérdéses, hogy Menny vagy ne!  7
+Gondterhelt a környezet,
+A cselekvő fegyvertelen.
+Mit jelent a fent és a lent?
+Kérdéses, hogy Menny vagy ne!
 
-Merre menj az életben  7
-Állandó veszélyhelyzetben 8
-Változó világnézettel 8
-A döntéstelen helyzete! 9
+Merre menj az életben
+Állandó veszélyhelyzetben
+Változó világnézettel
+A döntéstelen helyzete!
 
 Szélcsend lett és béke e helyen,
 Pihen e szép lepke a térségben,
 A pillangó lett nyughelyem,
-Ahol megfigyelem ezt!
+Ahol megfigyelem!

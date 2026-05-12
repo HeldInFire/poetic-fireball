@@ -1,6 +1,8 @@
 ---
 title: "Tangó a térben"
 written_at: 2021-02-18
+think_tags:
+    - lélektér
 ---
 
 Üdvözöllek a lélek térben,

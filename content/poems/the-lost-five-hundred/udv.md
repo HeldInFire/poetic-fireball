@@ -1,6 +1,9 @@
 ---
 title: "Üdv"
 written_at: 2020-11-16
+think_tags:
+    - nap
+    - lélektér
 ---
 
 Üdv, bennem,

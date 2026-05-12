@@ -1,6 +1,8 @@
 ---
 title: "Szén kristályok"
 written_at: 2022-06-29
+think_tags:
+    - kapcsolat
 ---
 
 Ki marad mellettem?

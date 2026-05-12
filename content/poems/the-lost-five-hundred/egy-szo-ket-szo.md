@@ -1,32 +1,34 @@
 ---
 title: "Egy szó, két szó"
 written_at: 2019-10-14
+think_tags:
+    - "sűrített idő"
 ---
 
-Egy szó, két szó, 4
-Anyó vagy apó!  5
-Két lépés,  3
-Eszes légy!  3
+Egy szó, két szó,
+Anyó vagy apó!
+Két lépés,
+Eszes légy!
 
-Egy szó, két szó, 4
-Rossz vagy jó!  5
-Tanul már,  3
-Kész a gép!  3
+Egy szó, két szó,
+Rossz vagy jó!
+Tanul már,
+Kész a gép!
 
-Egy szó, két szó,  4
-Költöző és öltöző! 7
-Ünneplés,  3
-Itt a pár!  3
+Egy szó, két szó,
+Költöző és öltöző!
+Ünneplés,
+Itt a pár!
 
-Egy szó, két szó,  4
-Rossz vagy jó!  3
-A döntés,  3
-Mely fontos! 3
+Egy szó, két szó,
+Rossz vagy jó!
+A döntés,
+Mely fontos!
 
-Egy szó, két szó,  4
-Mely fülüknek, oly jó!  6
-Szeretet,  3
-Ó a család!  4
+Egy szó, két szó,
+Mely fülüknek, oly jó!
+Szeretet,
+Ó a család!
 
 Egy szó, két szó,
 Gyerekek már felnőttek!

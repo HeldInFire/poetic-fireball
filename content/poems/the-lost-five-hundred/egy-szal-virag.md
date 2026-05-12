@@ -1,6 +1,9 @@
 ---
 title: "Egy szál virág"
 written_at: 2020-10-24
+think_tags:
+    - magány
+    - váltakozás
 ---
 
 Néha kinyílik,
