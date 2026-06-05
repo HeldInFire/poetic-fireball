@@ -1,7 +1,6 @@
 ---
 title: "Teremtés"
 written_at: 2026-05-17
-explicit_words: true
 ---
 
 Kussz elmémbe pimasz tavasz,

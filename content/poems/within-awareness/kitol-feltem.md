@@ -1,7 +1,6 @@
 ---
 title: "Kitől féltem"
 written_at: 2026-05-27
-explicit_words: true
 ---
 
 Köd,
