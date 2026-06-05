@@ -2,6 +2,8 @@
 title: "Ilyennek képzelem a szerelmet"
 written_at: 2026-05-06
 side_note: Távolodik gyerekkorunk
+think_tags:
+    - kapcsolat
 ---
 
 Tavaszi csend, reppen:

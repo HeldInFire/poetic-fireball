@@ -1,6 +1,8 @@
 ---
 title: "Dalos madár és a róka"
 written_at: 2023-12-05
+think_tags:
+    - liminális tér
 ---
 
 Száll a madár,

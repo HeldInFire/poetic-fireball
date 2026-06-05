@@ -2,6 +2,10 @@
 title: "Hiány"
 written_at: 2020-11-17
 favourite: true
+think_tags:
+    - anyu
+    - hiány
+    - kiemelt
 ---
 
 Mint kéz, 

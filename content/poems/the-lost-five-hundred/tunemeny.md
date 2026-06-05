@@ -1,6 +1,10 @@
 ---
 title: "Tünemény"
 written_at: 2021-07-25
+think_tags:
+    - szorongás
+    - ideál
+    - önmegfigyelés
 ---
 
 Azt hittem ott leszel, 

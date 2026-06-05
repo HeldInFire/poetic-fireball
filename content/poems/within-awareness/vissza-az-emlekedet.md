@@ -1,6 +1,8 @@
 ---
 title: "Vissza az emlékedet"
 written_at: 2026-01-26
+think_tags:
+    - anyu
 ---
 
 Egy szempár,

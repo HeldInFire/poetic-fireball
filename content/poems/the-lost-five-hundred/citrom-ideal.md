@@ -1,6 +1,8 @@
 ---
 title: "Citrom ideál 🍋"
 written_at: 2021-08-16
+think_tags:
+    - ideál
 ---
 
 Citromsavat öntöttem a szemembe,

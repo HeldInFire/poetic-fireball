@@ -1,6 +1,8 @@
 ---
 title: "Rózsa"
 written_at: 2021-05-10
+think_tags:
+    - anyu
 ---
 
 Vörösen virít a rózsa,
