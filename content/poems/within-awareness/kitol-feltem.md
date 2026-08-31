@@ -1,6 +1,9 @@
 ---
 title: "Kitől féltem"
 written_at: 2026-05-27
+think_tags:
+    - elfogadás
+    - megfelelés-elengedése
 ---
 
 Köd,

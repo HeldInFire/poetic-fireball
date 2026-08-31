@@ -7,6 +7,7 @@ import { ComponentProps, ReactElement } from "react";
 type Props = ComponentProps<typeof Tag.Root> & {
     tag: string;
     postComponent?: ReactElement;
+    // TODO: consider using a flag for count instead of postComponent
 }
 
 
